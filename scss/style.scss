@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 $main-color: #5b64d9;
-$light-color: #f5f6f8;
+$ilght-color: #f5f6f8;
 $gray-color: #777777;
 $font-stack: 'Roboto', sans-serif;
 
@@ -16,7 +16,7 @@ $font-stack: 'Roboto', sans-serif;
 html,
 body {
 	font-family: $font-stack;
-	background-color: $light-color;
+	background: $ilght-color;
 }
 
 h1 {
@@ -48,7 +48,7 @@ p {
 	font-size: 12px;
 }
 
-// MainHeader
+// Mainheader
 .mainheader {
 	padding: 60px 0;
 	background: url('/images/background.png');
@@ -86,8 +86,8 @@ p {
 				padding-top: 40px;
 			}
 		}
-	} //.flex end
-} //.devjobs end
+	} //End .flex
+} //End .devjobs
 
 // Footer
 .mainfooter {
@@ -104,6 +104,6 @@ p {
 			.flex-box {
 				margin-bottom: 40px;
 			}
-		} //.flex end
-	} //.devjobs end
+		}
+	}
 }
